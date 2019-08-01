@@ -4,5 +4,16 @@ Source Code for The Accordion App, a concept to autofill insurance forms. Users 
 App demo can be seen running here:
 https://www.theaccordion.net
 
-This is a Node.js express app deployed on Heroku. The database is nonSQL mongoDB.
+This is a Node.js express app deployed on Heroku. The database uses nonSQL mongoDB.
 
+## Getting Started
+
+Clone the repo and make sure you have nodemon and mongodb installed.
+
+Initialize the database with terminal command:
+
+`sudo mongod --port 27017`
+
+Initialize the application with terminal command:
+
+`nodemon index.js`
