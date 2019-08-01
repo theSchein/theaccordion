@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Business Information</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Aleo|Montserrat" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-dark">
+      <span class="navbar-brand mb-0 h1">The Accordion</span>
+    </nav>
+    <!-- Title -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h1>Business Information</h1>
+        </div>
+  </section>
+
+  <!-- Side navigation -->
+  <div class="sidenav">
+    <a href="/">Home</a>
+    <a href="contact">Contact</a>
+    <a href="business">Business</a>
+    <a href="insurance">Insurance History</a>
+    <a href="review">Review</a>
+    <a href="database">Database</a>
+
+  </div>
+
+  <!-- Page content -->
+
+  <section id="business">
+
+      <form action="/business" method="post">
+
+      <div class="form-row">
+      <div class="form-group col">
+        <label for="bussinessName">Business Name</label>
+        <input type="text" class="form-control" name="inputBusinessName" placeholder="">
+      </div>
+      <div class="form-group col">
+        <label for="bussinessName">Date Established / Years Experience</label>
+        <input type="date" class="form-control" name="inputEstDate" placeholder="">
+        <script type="text/javascript">
+        console.log(document.getElementById('inputEstDate').value);
+
+        </script>
+      </div>
+    </div>
+
+      <div class="form-row">
+
+      <div class="form-group col">
+        <label for="bussinessName">Business Description</label>
+        <input type="text" class="form-control" name="inputBusinessDescription" placeholder="Tell us about your business">
+      </div>
+    </div>
+      <div class="form-row">
+
+          <div class="form-group col-md-6">
+            <label for="locationNumber">Number of Locations</label>
+            <input type="number" class="form-control" name="inputLocationNumber" placeholder="">
+
+        </div>
+      </div>
+      <div class="form-row">
+
+          <div class="form-group col">
+            <label for="locationNumber">Estimated Revenue</label>
+            <input type="number" class="form-control" name="inputRevenue" placeholder="">
+
+        </div>
+        <div class="form-group col">
+          <label for="locationNumber">Estimated Payroll</label>
+          <input type="number" class="form-control" name="inputPayroll" placeholder="">
+
+      </div>
+      </div>
+      <div class="form-row">
+
+      <div class="form-group col">
+        <label for="inputEmail">Number of full-time Employees</label>
+        <input type="number" class="form-control" name="inputFullEmployee" placeholder="">
+      </div>
+
+
+    <div class="form-group col">
+      <label for="inputEmail">Number of part-time Employees</label>
+      <input type="number" class="form-control" name="inputPartEmployee" placeholder="">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Commercial or Residential?</label>
+      <select class="custom-select mr-sm-2" name="inputLocationType">
+        <option selected>Choose...</option>
+        <option value="com">Commmercial</option>
+        <option value="res">Residential</option>
+        <option value="both">Both</option>
+      </select>
+    </div>
+  </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Business Location 1</label>
+          <input type="text" class="form-control" name="inputLocationAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputAddress2">(If applicable)</label>
+          <input type="text" class="form-control" name="inputLocationAddress2" placeholder="Apartment #, studio, or floor">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" name="inputLocationCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputLocationState">State</label>
+          <input type="text" class="form-control" name="inputLocationState">
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputLocationZip">Zip Code</label>
+          <input type="text" class="form-control" name="inputLocationZip">
+        </div>
+      </div>
+      <div class="form-group">
+      </div>
+      <button type="submit" class="btn btn-primary" href="insurance">Continue</button>
+    </form>
+
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

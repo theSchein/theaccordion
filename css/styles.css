@@ -1,0 +1,144 @@
+#home-title {
+  background-color: #9bbfab;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#title {
+  background-color: #9bbfab;
+}
+
+#features{
+  text-align: center;
+  background-color: #ebf0c2;
+  font-family: 'Aleo';
+  padding-top: 20px;
+}
+
+#team{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#footer{
+  background-color: #774e26;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-style: italic;
+  color: #ebf0c2;
+  text-align: center;
+}
+
+#general{
+  text-align: center;
+}
+
+#business{
+  /*padding-top: 20px;
+  text-align: center;
+  font-size: 2rem; */
+  padding-left: 170px;
+
+}
+
+#insurance{
+  padding-left: 170px;
+}
+
+
+#database{
+  /*padding-top: 20px;
+  text-align: center;
+  font-size: 2rem; */
+  padding-left: 270px;
+
+}
+#review{
+  padding-left: 170px;
+}
+
+.btn-primary{
+  background-color: #461b7e;
+  font-family: 'Aleo';
+
+}
+.navbar {
+  background-color: #461b7e;
+  font-family: 'Montserrat';
+  font-size: 20px;
+
+}
+
+.businessForm{
+  padding: 10px, 10px,10px,10px;
+  align-content: center;
+}
+
+h1 {
+  font-family: 'Aleo';
+  font-size: 3rem;
+  color:  #461b7e;
+  line-height: 1.5;
+}
+
+h2{
+    font-size: 4rem;
+    padding-top: 100px;
+    font-family: 'Montserrat'
+
+}
+
+img {
+  border-radius: 75%;
+}
+
+body{
+  background-color: #FFFFFF;
+  font-family: 'Aleo';
+  color:  #461b7e;
+}
+
+
+#start{
+  font-size: 2rem;
+  font-style: italic;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #9bbfab; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Aleo';
+  font-size: 25px;
+  color: #461b7e;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

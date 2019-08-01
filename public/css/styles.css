@@ -1,0 +1,224 @@
+#home-title {
+  background-color: #FFFFFF;
+  padding-bottom: 4rem;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#banner {
+  background-color: #FFFFFF;
+  padding-bottom: 60px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  text-align: center;
+}
+
+#description {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-left: 2rem;
+  padding-bottom: 50px;
+}
+#register{
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#register-form{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#bio{
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 75%;
+}
+
+#team{
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 75%;
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+#title{
+  padding-left: 170px;
+}
+
+#general{
+  padding-left: 170px;
+}
+
+#business{
+  /*padding-top: 20px;
+  text-align: center;
+  font-size: 2rem; */
+  padding-left: 170px;
+
+}
+
+#insurance{
+  padding-left: 170px;
+}
+
+#review{
+  padding-left: 170px;
+}
+
+#database{
+  padding-left: 170px;
+
+}
+
+.login {
+  text-align:center;
+
+}
+
+.btn-primary{
+  background-color: #461b7e;
+  font-family: 'Aleo';
+
+}
+.navbar {
+  background-color: white;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.businessForm{
+  padding: 10px, 10px,10px,10px;
+  align-content: center;
+}
+
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+h1 {
+  font-family: 'Aleo';
+  font-size: 2rem;
+  color:  #461b7e;
+  line-height: 1.5;
+}
+
+h2{
+    font-size: 2rem;
+    padding-top: 10px;
+    font-family: 'Montserrat'
+    align-content: center;
+
+}
+h3{
+    font-size: 1rem;
+    font-family: 'Aleo';
+    color:  black;
+
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Aleo';
+    color:  black;
+
+}
+
+body{
+  background-color: #FFFFFF;
+  font-family: 'Aleo';
+  color:  #461b7e;
+  padding-bottom: 1rem;
+}
+
+#laptop {
+/*  border-radius: 75%; */
+  padding-top: 100px;
+}
+
+#ben-snow {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 100%;
+}
+
+#clay-water {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 100%;
+}
+
+#login {
+/*  border-radius: 75%; */
+  padding-top: 10px;
+  align-content: center;
+}
+
+#pdf{
+  text-align: center;
+  font-size: 5rem;
+  font-size: bold
+}
+
+#start{
+  font-size: 2rem;
+  font-style: italic;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #bebebe; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Aleo';
+  font-size: 25px;
+  color: #;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
