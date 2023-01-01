@@ -22,6 +22,6 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1",
-    "pdfjs-dist": "^2.0.943"
+    "pdfjs-dist": "^2.16.105"
   }
 }
